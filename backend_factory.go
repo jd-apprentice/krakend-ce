@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	amqp "github.com/krakendio/krakend-amqp/v2"
+	amqp "github.com/jd-apprentice/krakend-amqp/v2"
 	cel "github.com/krakendio/krakend-cel/v2"
 	cb "github.com/krakendio/krakend-circuitbreaker/v2/gobreaker/proxy"
 	httpcache "github.com/krakendio/krakend-httpcache/v2"
@@ -16,11 +16,11 @@ import (
 	opencensus "github.com/krakendio/krakend-opencensus/v2"
 	pubsub "github.com/krakendio/krakend-pubsub/v2"
 	ratelimit "github.com/krakendio/krakend-ratelimit/v3/proxy"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	"github.com/luraproject/lura/v2/transport/http/client"
-	httprequestexecutor "github.com/luraproject/lura/v2/transport/http/client/plugin"
+	"github.com/jd-apprentice/lura/v2/config"
+	"github.com/jd-apprentice/lura/v2/logging"
+	"github.com/jd-apprentice/lura/v2/proxy"
+	"github.com/jd-apprentice/lura/v2/transport/http/client"
+	httprequestexecutor "github.com/jd-apprentice/lura/v2/transport/http/client/plugin"
 )
 
 // NewBackendFactory creates a BackendFactory by stacking all the available middlewares:

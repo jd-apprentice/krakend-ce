@@ -13,7 +13,7 @@ import (
 	"golang.org/x/sync/errgroup"
 
 	krakendbf "github.com/krakendio/bloomfilter/v2/krakend"
-	asyncamqp "github.com/krakendio/krakend-amqp/v2/async"
+	asyncamqp "github.com/jd-apprentice/krakend-amqp/v2/async"
 	audit "github.com/krakendio/krakend-audit"
 	cel "github.com/krakendio/krakend-cel/v2"
 	cmd "github.com/krakendio/krakend-cobra/v2"
@@ -35,14 +35,14 @@ import (
 	_ "github.com/krakendio/krakend-opencensus/v2/exporter/zipkin"
 	pubsub "github.com/krakendio/krakend-pubsub/v2"
 	usage "github.com/krakendio/krakend-usage/v2"
-	"github.com/luraproject/lura/v2/async"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/core"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	router "github.com/luraproject/lura/v2/router/gin"
-	serverhttp "github.com/luraproject/lura/v2/transport/http/server"
-	server "github.com/luraproject/lura/v2/transport/http/server/plugin"
+	"github.com/jd-apprentice/lura/v2/async"
+	"github.com/jd-apprentice/lura/v2/config"
+	"github.com/jd-apprentice/lura/v2/core"
+	"github.com/jd-apprentice/lura/v2/logging"
+	"github.com/jd-apprentice/lura/v2/proxy"
+	router "github.com/jd-apprentice/lura/v2/router/gin"
+	serverhttp "github.com/jd-apprentice/lura/v2/transport/http/server"
+	server "github.com/jd-apprentice/lura/v2/transport/http/server/plugin"
 )
 
 // NewExecutor returns an executor for the cmd package. The executor initalizes the entire gateway by

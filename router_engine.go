@@ -9,10 +9,10 @@ import (
 	httpsecure "github.com/krakendio/krakend-httpsecure/v2/gin"
 	lua "github.com/krakendio/krakend-lua/v2/router/gin"
 	opencensus "github.com/krakendio/krakend-opencensus/v2/router/gin"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/core"
-	luragin "github.com/luraproject/lura/v2/router/gin"
-	"github.com/luraproject/lura/v2/transport/http/server"
+	"github.com/jd-apprentice/lura/v2/config"
+	"github.com/jd-apprentice/lura/v2/core"
+	luragin "github.com/jd-apprentice/lura/v2/router/gin"
+	"github.com/jd-apprentice/lura/v2/transport/http/server"
 )
 
 // NewEngine creates a new gin engine with some default values and a secure middleware

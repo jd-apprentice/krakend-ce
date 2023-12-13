@@ -10,11 +10,11 @@ import (
 	metrics "github.com/krakendio/krakend-metrics/v2/gin"
 	opencensus "github.com/krakendio/krakend-opencensus/v2/router/gin"
 	ratelimit "github.com/krakendio/krakend-ratelimit/v3/router/gin"
-	"github.com/luraproject/lura/v2/config"
-	"github.com/luraproject/lura/v2/logging"
-	"github.com/luraproject/lura/v2/proxy"
-	router "github.com/luraproject/lura/v2/router/gin"
-	"github.com/luraproject/lura/v2/transport/http/server"
+	"github.com/jd-apprentice/lura/v2/config"
+	"github.com/jd-apprentice/lura/v2/logging"
+	"github.com/jd-apprentice/lura/v2/proxy"
+	router "github.com/jd-apprentice/lura/v2/router/gin"
+	"github.com/jd-apprentice/lura/v2/transport/http/server"
 
 	"github.com/gin-gonic/gin"
 )

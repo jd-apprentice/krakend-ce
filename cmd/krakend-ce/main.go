@@ -13,7 +13,7 @@ import (
 	cmd "github.com/krakendio/krakend-cobra/v2"
 	flexibleconfig "github.com/krakendio/krakend-flexibleconfig/v2"
 	viper "github.com/krakendio/krakend-viper/v2"
-	"github.com/luraproject/lura/v2/config"
+	"github.com/jd-apprentice/lura/v2/config"
 )
 
 const (
@@ -82,10 +82,10 @@ var aliases = map[string]string{
 	"github.com/devopsfaith/krakend-cel":        "validation/cel",
 	"github.com/devopsfaith/krakend-jsonschema": "validation/json-schema",
 
-	"github.com/devopsfaith/krakend-amqp/agent": "async/amqp",
+	"github.com/jd-apprentice/krakend-amqp/agent": "async/amqp",
 
-	"github.com/devopsfaith/krakend-amqp/consume":                  "backend/amqp/consumer",
-	"github.com/devopsfaith/krakend-amqp/produce":                  "backend/amqp/producer",
+	"github.com/jd-apprentice/krakend-amqp/consume":                  "backend/amqp/consumer",
+	"github.com/jd-apprentice/krakend-amqp/produce":                  "backend/amqp/producer",
 	"github.com/devopsfaith/krakend-lambda":                        "backend/lambda",
 	"github.com/devopsfaith/krakend-pubsub/publisher":              "backend/pubsub/publisher",
 	"github.com/devopsfaith/krakend-pubsub/subscriber":             "backend/pubsub/subscriber",
